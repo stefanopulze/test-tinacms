@@ -25,8 +25,8 @@ const contentBlock: TinaTemplate = {
 
 export default defineConfig({
   branch,
-  clientId: null, // Get this from tina.io
-  token: null, // Get this from tina.io
+  clientId: "427d34a5-2aa8-45c3-ac3e-66276ccb11d5", // Get this from tina.io
+  token: "b163d69352b1ed21d5edfc1b5cb43b3025e9a13f", // Get this from tina.io
 
   build: {
     outputFolder: "admin",
