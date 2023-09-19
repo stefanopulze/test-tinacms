@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range $b := .Params.blocks}}
+   {{ $b.body}}
+  {{ end }}
+{{ end }}

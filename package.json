@@ -1,0 +1,17 @@
+{
+  "name": "hug01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c 'hugo server -D -p 1313'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.29",
+    "tinacms": "^1.5.20"
+  }
+}
